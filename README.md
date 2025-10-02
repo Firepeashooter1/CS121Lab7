@@ -4,7 +4,7 @@
 
 > class Address:
 
-> > private contains a string for street, city, state, and zip
+> > private contains a string called street, city, state, and zip
 
 > > public:
 
@@ -12,7 +12,20 @@
 
 > > > > make private Address strings equal their abbreviated version using string&
 
-> > > void printAddress const
+> > > void printAddress const:
 > > > > print address info
+
+> class Date:
+
+> > private cotains a string called dateStr
+
+> > public:
+
+> > > void init cost string& ds:
+> > > > dateSTR contains ds
+
+> > > void printDate const:
+> > > > print dateSTR
+
 
 
