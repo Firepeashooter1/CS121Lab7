@@ -4,8 +4,8 @@
 
 ```mermaid 
 classDiagram
-    Student <|-- Address
-    Student <|-- Date
+    Student --> Address
+    Student --> Date
     class Date{
         - string dateStr
         - int month
