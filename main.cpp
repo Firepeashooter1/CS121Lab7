@@ -105,8 +105,7 @@ void testStudent() {
     Student* student = new Student();
     student->init(studentString);
     student->printStudent();
-    std::cout << std::endl;
-    std::cout << student->getLastFirst() << std::endl;
+    std::cout << "\n" << student->getLastFirst() << std::endl;
     delete student;
 }//end testStudent
 
