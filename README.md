@@ -2,7 +2,6 @@
 
 ## UML Diagram
 
-```mermaid
 classDiagram
     Student <|-- Address
     Student <|-- Date
