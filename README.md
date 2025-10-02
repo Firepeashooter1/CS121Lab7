@@ -47,3 +47,41 @@
 > > > > birthDate init contains birth
 > > > > gradDate init grad
 
+> > > void printStudent const:
+
+> > > > print firstName and LastName
+> > > > address printAddress
+
+> > > > print Birth Date
+> > > > birthDate printDate
+
+> > > > print Graduation Date
+> > > > gradDate printDate
+
+> > > > print credits
+
+> > > string getLastFirst const:
+> > > > return lastName and firstName
+
+> void testDate:
+> > Date d
+> > d init and then printDate
+
+> void testStudent:
+> > have a string called studentString with all the info
+
+> > Student* student equals a new Student
+
+> > student points to a printStudent that comes on the line after a init containing a studentString
+
+> > student pointing to getLastFirst
+
+> > delete student
+
+> int main:
+
+> > print hello
+
+> >  do testAdress, testDate, and testStudent in that order
+
+> > return 0
