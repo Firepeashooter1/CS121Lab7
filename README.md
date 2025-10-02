@@ -1,5 +1,48 @@
 # CS121Lab7
 
+## UML Diagram
+
+```mermaid
+classDiagram
+    Student <|-- Address
+    Student <|-- Date
+
+    class Date{
+        - string dateStr
+        - int month
+        - int day
+        - int year
+        + Date()
+        + void init(dateStr)
+        + void printDate()
+    }
+    class Address{
+      - string street
+      - string city
+      - string state
+      - string zip
+      + Address()
+      + void init(street, city, state, zip)
+      + void printAddress()
+    }
+    class Student{
+      - string studentString
+      - string firstName
+      - Hstring lastName
+      - Date* dob
+      - Date* grad
+      - Address* Address
+      - int credits
+      + Student()
+      + void init(studentString)
+      + void printStudent()
+      + string firstName()
+      + string lastName()
+      + int creditHours()
+    }
+
+##Algorithm
+
 > include iostream, string, sstream
 
 > class Address:
