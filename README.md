@@ -4,6 +4,8 @@
 
 ```mermaid 
 classDiagram
+    Student <|-- Address
+    Student <|-- Date
     class Date{
         - string dateStr
         - int month
@@ -37,8 +39,7 @@ classDiagram
       + string lastName()
       + int creditHours()
     }
-    Student <|-- Address
-    Student <|-- Date
+
 ## Algorithm
 
 > include iostream, string, sstream
