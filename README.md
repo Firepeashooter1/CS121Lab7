@@ -2,7 +2,7 @@
 
 ## Algorithm
 
-> include iostream, string, sstream
+> include iostream, string, sstream, vector, string
 
 > class Address:
 
@@ -52,7 +52,6 @@
 > > > void printStudent const:
 
 > > > > print firstName and LastName
-> > > > address printAddress
 
 > > > > print Birth Date
 > > > > birthDate printDate
@@ -65,29 +64,58 @@
 > > > string getLastFirst const:
 > > > > return lastName and firstName
 
-> void testDate:
-> > Date d
-> > d init and then printDate
+> > > string getLastName const {
+> > > > return lastName and firstname
 
-> void testStudent:
-> > have a string called studentString with all the info
+> > > string getLastName const
+> > > > return lastName
 
-> > Student* student equals a new Student
+> > > int getCredits const
+> > > > return credits
 
-> > student points to a printStudent that comes on the line after a init containing a studentString
+> string menu
+> >  give user the options
 
-> > student pointing to getLastFirst
+> void loadStudent
+> > if file not true
+> > > print failed to open filename
 
-> > delete student
+> > while getLine
+> > > new student
+> > > s poinrs to init
+> > > student push back on s
 
-> int main:
+> void showStudentNames
+> > for const auto s : students
+> > s pints to printStudent
 
-> > print hello
+> void findStudent
+> > print Last name of students
+> > for const auto s : students
+> > > if s points to getLastname as it finds query and not equal to string npos
+> > > > s points to printStudent and found true
+> > if not found
+> > > print no students with that last name
 
-> >  do testAdress, testDate, and testStudent in that order
+> void delStudents
+> > for auto s : students
+> > > delete s
 
-> > return 0
 
+
+> int main
+> > if choice 0
+> > > break
+> > elif 1
+> > > showStudentNames
+> > elif 2
+> > > printStudents
+> > elif 3
+> > > findStudent
+> > else
+> > > print invalid choice
+
+> > delStudents then print goodbye and return 0
 ## UML Diagram
 
 ```mermaid 
